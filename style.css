@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    align-self: flex-start;
+    margin-bottom: 10em;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+span{
+    margin: .3em;
+}
+.colorPalete {
+    height: 200px;
+    width: 200px;
+    background: #00ff00;
+
+}
