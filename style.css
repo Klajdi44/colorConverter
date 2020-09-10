@@ -12,20 +12,31 @@ body {
 }
 
 .input {
-    align-self: flex-start;
     margin-bottom: 10em;
+
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    background: rgb(226, 223, 223);
+    padding: 2.5em;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+
 }
-span{
-    margin: .3em;
+
+span {
+    margin: 1em;
+    color: rgb(68, 59, 59);
 }
+
 .colorPalete {
     height: 200px;
     width: 200px;
     background: #00ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
