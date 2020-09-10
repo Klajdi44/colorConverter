@@ -1,10 +1,10 @@
 'use strict';
-
-// window.addEventListener("DOMContentLoaded", start);
-
+window.addEventListener("DOMContentLoaded", start);
 const input = document.querySelector('.input');
-input.addEventListener('input', changeColor);
 
+function start() {
+  input.addEventListener('input', changeColor);
+}
 
 function changeColor() {
   const cube = document.querySelector('.colorPalete');
@@ -66,7 +66,7 @@ function RGBToHSL(r, g, b) {
   }
   s *= 100;
   l *= 100;
-  console.log("hsl(%f,%f%,%f%)", h, s, l);
+  // console.log("hsl(%f,%f%,%f%)", h, s, l);
 
   return {
     h: Math.floor(h),
